@@ -5,7 +5,7 @@
 }
 
 /* 4-2 */
-.lesson-four-task-two h1:hover {
+.lesson-four-task-two .link:hover + .title {
   background: green;
 }
 
