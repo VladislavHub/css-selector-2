@@ -18,5 +18,12 @@ router.get('/', function (req, res) {
 
 // ================================================================
 
+router.get('/selector', function (req, res) {
+  res.render('selector', {
+    layout: 'selector',
+  })
+})
+// ================================================================
+
 // Підключаємо роутер до бек-енду
 module.exports = router
